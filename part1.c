@@ -4,13 +4,13 @@
 
 int main()
 {
-    /* Veri tipleri ve kullanılan hafıza boyutları
+    /* Veri tipleri ve kullanÄ±lan hafÄ±za boyutlarÄ±
     int(4 bytes) | %d
     double(8 bytes) | %lf
     float(4 bytes) | %f
     char(1 bytes) | %c
     */
-/*Veri tipleri ve verilerle basit işlemler */
+/*Veri tipleri ve verilerle basit iÅŸlemler */
     int mynumber = 12,mynumber2;
     mynumber2 = 89;
     float mynumber3 = 5.42;
@@ -71,13 +71,13 @@ int main()
 
  /*
  Arithmethic Operator
- + toplama operatörü
- - çıkarma operatörü
- * çarpma operatörü
- / bölme operatörü
- % kalan operatörü
- ++ bir arttırma operatörü
- -- bir eksiltme operatörü
+ + toplama operatÃ¶rÃ¼
+ - Ã§Ä±karma operatÃ¶rÃ¼
+ * Ã§arpma operatÃ¶rÃ¼
+ / bÃ¶lme operatÃ¶rÃ¼
+ % kalan operatÃ¶rÃ¼
+ ++ bir arttÄ±rma operatÃ¶rÃ¼
+ -- bir eksiltme operatÃ¶rÃ¼
   */
 
      int x = 10;
@@ -93,12 +93,12 @@ int main()
 
 /*
  Assigment Operator
-  =  tanılama operatörü
- +=  toplayıp yeniden tanılama operatörü
- -=  çıkarıp yeniden tanılama operatörü
- *=  çarpıp yeniden tanılama operatörü
- /=  bölüp yeniden tanılama operatörü
- %=  kalan alıp yeniden tanılama operatörü
+  =  tanÄ±lama operatÃ¶rÃ¼
+ +=  toplayÄ±p yeniden tanÄ±lama operatÃ¶rÃ¼
+ -=  Ã§Ä±karÄ±p yeniden tanÄ±lama operatÃ¶rÃ¼
+ *=  Ã§arpÄ±p yeniden tanÄ±lama operatÃ¶rÃ¼
+ /=  bÃ¶lÃ¼p yeniden tanÄ±lama operatÃ¶rÃ¼
+ %=  kalan alÄ±p yeniden tanÄ±lama operatÃ¶rÃ¼
 */
 
      int x=25;
@@ -115,12 +115,12 @@ int main()
 
 /*
  Comparison Operator
-  ==  eşitmi operatörü
-  !=  eşit değilmi operatörü
-   >  büyükmü operatörü
-   <  küçükmü operatörü
-  >=  büyük eşitmi operatörü
-  <=  küçük eşitmi operatörü
+  ==  eÅŸitmi operatÃ¶rÃ¼
+  !=  eÅŸit deÄŸilmi operatÃ¶rÃ¼
+   >  bÃ¼yÃ¼kmÃ¼ operatÃ¶rÃ¼
+   <  kÃ¼Ã§Ã¼kmÃ¼ operatÃ¶rÃ¼
+  >=  bÃ¼yÃ¼k eÅŸitmi operatÃ¶rÃ¼
+  <=  kÃ¼Ã§Ã¼k eÅŸitmi operatÃ¶rÃ¼
 */
 
      int x=12;
@@ -129,9 +129,9 @@ int main()
 
 /*
  Logical Operator
- && ve operatörü (iki tarafta 1(True)olursa cevap 1 yoksa 0)
- || ya da operatörü (iki taraftan biri 1(True)olursa 1 yoksa 0)
- !  değili operatörü (başına geldiği durum çıktısını (True/False) tam tersine çevirir (1 ise 0,0ise ))
+ && ve operatÃ¶rÃ¼ (iki tarafta 1(True)olursa cevap 1 yoksa 0)
+ || ya da operatÃ¶rÃ¼ (iki taraftan biri 1(True)olursa 1 yoksa 0)
+ !  deÄŸili operatÃ¶rÃ¼ (baÅŸÄ±na geldiÄŸi durum Ã§Ä±ktÄ±sÄ±nÄ± (True/False) tam tersine Ã§evirir (1 ise 0,0ise ))
 */
 
         int x=55;
@@ -140,7 +140,7 @@ int main()
         printf("%d\n",(x>100 || y<100));
         printf("%d\n",!(x<56 && y>38));
         printf("%d\n",!(x>100 || y<100));
-/*Girilen sayıları karşılaştırma programı */
+/*Girilen sayÄ±larÄ± karÅŸÄ±laÅŸtÄ±rma programÄ± */
         int numb1;
         int numb2;
 
@@ -162,7 +162,7 @@ int main()
          printf("1.sayi ve 2.sayi birbirine esittir");
         }
 
-/*Girilen sayının tek mi çift mi olduğunu bulan program*/
+/*Girilen sayÄ±nÄ±n tek mi Ã§ift mi olduÄŸunu bulan program*/
          int x;
          printf("tek mi cift mi sihirbazina hos geldiniz\n sayiyi giriniz:\n");
          scanf("%d",&x);
@@ -173,7 +173,7 @@ int main()
         else {
            printf("sayi cifttir");
         }
-/*Yaşa göre oy kullanma durumu hesaplama programı */
+/*YaÅŸa gÃ¶re oy kullanma durumu hesaplama programÄ± */
         int a;
         printf("oy kullanma durumu sorgu sihirbazina hos geldiniz\nYasinizi giriniz:\n");
         scanf("%d",&a);
