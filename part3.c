@@ -4,7 +4,7 @@
 int main() {
 
 /*Diziler*/
-Tek boyutlu diziler
+/*Tek boyutlu diziler*/
     int dizi[5]={1,3,5,7,9};
     printf("%d %d",dizi[0],dizi[4]);
 
@@ -62,7 +62,7 @@ Tek boyutlu diziler
     {
         printf("%d\n",sayi[i]);
     }
-
+    /*kullanıcıdan alınan sayıları dızıye ekleyıp yazdırma-(Do while)*/
     int sayi[3];
     int i;
 
@@ -112,7 +112,7 @@ Tek boyutlu diziler
         }
         printf("\n");
     }
-
+/*Alıştırma diziler*/
     int dizi1[3][4]={{1,2,3,4},{5,6,7,8},{9,10,11,12}};
     int dizi2[3][4]={{12,11,10,9},{8,7,6,5},{4,3,2,1}};
     int toplam[3][4];
